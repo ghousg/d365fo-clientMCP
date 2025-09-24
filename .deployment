@@ -1,0 +1,10 @@
+[build]
+  base = ""
+
+[build.environment]
+  PYTHON_VERSION = "3.13"
+  PIP_INDEX_URL = "https://pypi.org/simple/"
+  DISABLE_COLLECTSTATIC = "1"
+
+[build.processing]
+  skip_processing = false
